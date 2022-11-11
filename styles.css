@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+
+main{
+  max-width: 33.0rem;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+main h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+main span:nth-child(1) {
+  font-weight: bold;
+}
+
+main span{
+  color: #FF9900;
+}
+
+main p {
+  font-size: 1.5rem;
+  color: #7D7987;
+  margin-bottom: 5rem;
+  line-height: 2.6rem;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 10rem;
+  font-size: 1.5rem;
+}
+
+ul a {
+  text-decoration: none;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.line {
+  border: 1px solid #ECEFF2;
+  width: 30.0rem;
+  margin-bottom: 1rem;
+}
+
+#balls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+@media(min-width:40rem){
+
+
+  main img{
+      width: 120%
+  }
+
+  main h1{
+      font-size: 3.9rem;
+  }
+
+  main p{
+      font-size:1.4rem ;
+  }
+  .line{
+      border: 1px solid #ECEFF2;
+      width: 50.0rem;
+      margin-bottom: 1rem;
+  }
+  #balls{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 1;
+  }
+}
+
+@media(min-width:1024px){
+  main{
+      max-width: 592px;
+  }
+  main img{
+      width: 80%;
+  }
+  main h1{
+      font-size: 4.9rem;
+      width: 56.2rem;
+  }
+  main p{
+      margin-bottom: 7.2rem;
+  }
+  .line{
+      border: 1px solid #ECEFF2;
+      width: 56.8rem;
+      margin-bottom: 1rem;
+  }
+  #balls{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 1;
+  }
+}
